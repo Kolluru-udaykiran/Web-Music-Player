@@ -1,0 +1,78 @@
+body{
+margin:0;
+font-family:Arial;
+background:#6d8791;
+color:white;
+}
+
+/* Main layout like table */
+.main-layout{
+display:grid;
+grid-template-columns:260px 1fr;
+height:100vh;
+}
+
+/* Sidebar */
+.sidebar{
+background:#a12828;
+padding:15px;
+overflow-y:auto;
+}
+
+.sidebar h3{
+margin-top:0;
+}
+
+.sidebar ul{
+list-style:none;
+padding:0;
+}
+
+.sidebar li{
+padding:10px;
+border-bottom:1px solid #7a1c1c;
+cursor:pointer;
+}
+
+.sidebar li:hover{
+background:#7a1c1c;
+}
+
+/* Player area */
+.player-area{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+/* Controls */
+.controls{
+margin-top:10px;
+}
+
+.controls button{
+padding:10px 14px;
+margin:5px;
+font-size:18px;
+border:none;
+cursor:pointer;
+}
+
+/* Progress bar */
+#progress{
+width:450px;
+}
+
+/* Volume */
+#volume{
+width:200px;
+margin-top:10px;
+}
+
+.time{
+width:450px;
+display:flex;
+justify-content:space-between;
+margin-bottom:5px;
+}
